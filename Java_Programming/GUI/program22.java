@@ -20,6 +20,18 @@ class program22
         panel.add(new JButton("Three"));
         panel.add(new JButton("Four"));
 
+        //  FlowLayout Alignment
+        /*
+            starting from left --> panel.setLayout(new Flowlayout(FlowLayout.LEFT));
+            This is defalut (Center) --> panel.setLayout(new FlowLayout(FlowLayout.CENTER));
+            starting from Right --> panel.setLayout(new FlowLayout(FlowLayout.Right));
+
+            panel.setLayout(new FlowLayout(FlowLayout.CENTER, 20, 10));
+            20 --> horizontal gap
+            10 --> vertical gap
+
+        */
+
         frame.add(panel);
 
         frame.setSize(400, 200);
